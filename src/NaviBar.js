@@ -1,22 +1,22 @@
 
 import './NaviBar.css';
 
-function Navibar() {
+function NaviBar() {
     return(
         <div className='Nav-Bar'>
             <ul>
                 <li>
-                    <a href=''>About</a>
+                    <a href='#'>About</a>
                 </li>
                 <li>
-                    <a href=''>Ministries</a>
+                    <a href='#'>Ministries</a>
                 </li>
                 <li>
-                    <a href=''>Resources</a>
+                    <a href='#'>Resources</a>
                 </li>
             </ul>
 
         </div>
     );
 }
-export default Navibar;
+export default NaviBar;
